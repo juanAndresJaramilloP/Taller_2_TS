@@ -19,8 +19,8 @@
             </div>
         </header>
     </div>
-    <div class="container-fluid">
-        <div class="col-6 mt-4">
+    <div class="row">
+        <div class="col mt-4">
             <table class="table w-auto">
                 <thead>
                     <tr>
@@ -30,16 +30,20 @@
                         <th>Seasons</th>
                     </tr>
                 </thead>
-                <tbody id="series" style="background-color:rgb(193, 193, 193);">
+                <tbody id="series" style="background-color:rgb(225, 225, 225);">
                 </tbody>
             </table>
-            <div class="row">
-                <h6 class="col-xs-3 text-center mr-2 ml-4">Seasons Average:</h6>
-                <p class="col-xs-1" id="average-seasons"></p>
-            </div>
+            <p class="text-start mr-2 ml-2">Seasons Average: <span class="badge badge-light" id="average-seasons"></span></p>
         </div>
-        <div class="col-6 mt-4">
-
+        <div class="col mt-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://ntvb.tmsimg.com/assets/p8696131_b_h10_aa.jpg?w=960&h=540" alt="image" id="serie-img">
+                <div class="card-body">
+                    <h5 class="card-title" id="serie-title">Breaking Bad</h5>
+                    <p class="card-text" id="serie-description">Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer</p>
+                    <a href="https://www.amc.com/shows/breaking-bad" id="serie-link">https://www.amc.com/shows/breaking-bad</a>
+                </div>
+            </div>
         </div>
     </div>
     <script type="module" src="./scripts/serie.js" ></script>
